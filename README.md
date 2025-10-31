@@ -9,6 +9,27 @@ Why "**tamui**"? - It sounds like **Japanese word** `\_(-_-)_/`
 
 > It means it works in React.
 
+## CSS
+
+Additional useful styles, whether to include these or not is up to you.
+
+**Reset**
+Resets all browser default styles, useful for greater control and to make sure styles won't be affected by browser style changes.
+```js
+import "@denshya/tamui/styles/reset.css"
+```
+
+**Base**
+Common styles for all applications.
+```js
+import "@denshya/tamui/styles/base.css"
+```
+
+## Icons
+
+## Color Pallete
+
+## Figma UI Kit
 
 ## UI
 
