@@ -77,17 +77,13 @@ _Click on the link to open example._
 | [`<InputPicker>`]()      |                                                                     |
 | [`<InlineEdit>`]()       |                                                                     |
 | [`<AdaptiveEdit>`]()     |                                                                     |
-
 | [`<Radio>`]()            |                                                                     |
-
 | [`<Rate>`]()             |                                                                     |
 | [`<SelectPicker>`]()     |                                                                     |
 | [`<TagPicker>`]()        |                                                                     |
 | [`<TagInput>`]()         |                                                                     |
 | [`<Toggle>`]()           |                                                                     |
-
 | [`<Uploader>`]()         |                                                                     |
-
 | [`<DateInput>`]()        |                                                                     |
 | [`<DatePicker>`]()       |                                                                     |
 | [`<DateRangeInput>`]()   |                                                                     |
