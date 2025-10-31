@@ -10,6 +10,8 @@ Why "**tamui**"? - It sounds like **Japanese word** `\_(-_-)_/`
 
 > It means it works in React.
 
+## Figma UI Kit
+
 ## CSS
 
 Additional useful styles, whether to include these or not is up to you.
@@ -34,74 +36,113 @@ import "@denshya/tamui/styles/base.css"
 
 ## Typography
 
-## Figma UI Kit
+## Formatting
+
+### `Price`
+
+### `Phone`
+
+### `Date`
 
 ## UI
 
 _Click on the link to open example._
 
-| Component               | Description                                                         |
-| ----------------------- | ------------------------------------------------------------------- |
-| [`<Selector>`]()        |                                                                     |
-| [`<Button>`]()          |                                                                     |
-| [`<Buttons>`]()         |                                                                     |
-| [`<IconButton>`]()      |                                                                     |
-| [`<Badge>`]()           |                                                                     |
-| [`<Loader>`]()          |                                                                     |
-| [`<Notice>`]()          |                                                                     |
-| [`<Progress>`]()        |                                                                     |
-| [`<Placeholder>`]()     |                                                                     |
-| [`<ToastLayout>`]()     |                                                                     |
-| [`<PopupLayout>`]()     |                                                                     |
-| [`<DrawerLayout>`]()    |                                                                     |
-| [`<WhisperLayout>`]()   |                                                                     |
-| [`<PopoverLayout>`]()   |                                                                     |
-| [`<Overlay>`]()         | A block that goes over other content.                               |
-| [`<Tooltip>`]()         |                                                                     |
-| [`<Dropdown>`]()        |                                                                     |
-| [`<Breadcrumb>`]()      |                                                                     |
-| [`<Steps>`]()           |                                                                     |
-| [`<Pagination>`]()      |                                                                     |
-| [`<Avatar>`]()          | The same as `Image`, but has placeholder, letter-based and editable |
-| [`<Icon>`]()            |                                                                     |
-| [`<Image>`]()           | Displays image, fallbacks when loading or errored, random image     |
-| [`<SearchBar>`]()       |                                                                     |
-| [`<Cascader>`]()        |                                                                     |
-| [`<CascadeTree>`]()     |                                                                     |
-| [`<CheckPicker>`]()     |                                                                     |
-| [`<CheckTreePicker>`]() |                                                                     |
-| [`<CheckTree>`]()       |                                                                     |
-| [`<Checkbox>`]()        |                                                                     |
-| [`<Input>`]()           |                                                                     |
-| [`<InputNumber>`]()     |                                                                     |
-| [`<InputPicker>`]()     |                                                                     |
-| [`<InlineEdit>`]()      |                                                                     |
-| [`<AdaptiveEdit>`]()    |                                                                     |
-| [`<Radio>`]()           |                                                                     |
-| [`<Rate>`]()            |                                                                     |
-| [`<SelectPicker>`]()    |                                                                     |
-| [`<TagPicker>`]()       |                                                                     |
-| [`<TagInput>`]()        |                                                                     |
-| [`<Toggle>`]()          |                                                                     |
-| [`<Uploader>`]()        |                                                                     |
-| [`<DateInput>`]()       |                                                                     |
-| [`<DatePicker>`]()      |                                                                     |
-| [`<DateRangeInput>`]()  |                                                                     |
-| [`<DateRangePicker>`]() |                                                                     |
-| [`<TimePicker>`]()      |                                                                     |
-| [`<TimeRangePicker>`]() |                                                                     |
-| [`<Table>`]()           | Regular, Virtualized, Tree, Affix, Editable                         |
-| [`<Slider>`]()          |                                                                     |
-| [`<Tag>`]()             |                                                                     |
-| [`<Timeline>`]()        |                                                                     |
-| [`<Accordion>`]()       |                                                                     |
-| [`<Tabs>`]()            |                                                                     |
-| [`<Textarea>`]()        |                                                                     |
-| [`<Video>`]()           |                                                                     |
-| [`<DataList>`]()        |                                                                     |
-| [`<ContextMenu>`]()     |                                                                     |
-| [`<Expander>`]()        |                                                                     |
-| [`<FAQ>`]()             |                                                                     |
+### Input
+
+| Component               | Description |
+| ----------------------- | ----------- |
+| [`<Selector>`]()        |             |
+| [`<Input>`]()           |             |
+| [`<SearchBar>`]()       |             |
+| [`<CheckPicker>`]()     |             |
+| [`<CheckTreePicker>`]() |             |
+| [`<CheckTree>`]()       |             |
+| [`<Checkbox>`]()        |             |
+| [`<InputNumber>`]()     |             |
+| [`<InputPicker>`]()     |             |
+| [`<InlineEdit>`]()      |             |
+| [`<AdaptiveEdit>`]()    |             |
+| [`<Radio>`]()           |             |
+| [`<Rate>`]()            |             |
+| [`<SelectPicker>`]()    |             |
+| [`<TagPicker>`]()       |             |
+| [`<TagInput>`]()        |             |
+| [`<Toggle>`]()          |             |
+| [`<DateInput>`]()       |             |
+| [`<DatePicker>`]()      |             |
+| [`<DateRangeInput>`]()  |             |
+| [`<DateRangePicker>`]() |             |
+| [`<TimePicker>`]()      |             |
+| [`<TimeRangePicker>`]() |             |
+| [`<Textarea>`]()        |             |
+| [`<ColorPicker>`]()     |             |
+| [`<FileSelector>`]()    |             |
+
+### Data Display
+
+| Component        | Description |
+| ---------------- | ----------- |
+| [`<Progress>`]() |             |
+
+### Layouts
+
+| Component             | Description |
+| --------------------- | ----------- |
+| [`<Table>`]()         |             |
+| [`<Article>`]()       |             |
+| [`<ToastLayout>`]()   |             |
+| [`<PopupLayout>`]()   |             |
+| [`<DrawerLayout>`]()  |             |
+| [`<WhisperLayout>`]() |             |
+| [`<PopoverLayout>`]() |             |
+
+### Sections
+
+| Component             | Description                                 |
+| --------------------- | ------------------------------------------- |
+| [`<UploadSection>`]() |                                             |
+| [`<FAQ>`]()           |                                             |
+| [`<Accordion>`]()     |                                             |
+| [`<Slider>`]()        |                                             |
+| [`<Steps>`]()         |                                             |
+| [`<Table>`]()         | Regular, Virtualized, Tree, Affix, Editable |
+| [`<Timeline>`]()      |                                             |
+| [`<Tabs>`]()          |                                             |
+
+### Static
+
+| Component           | Description                                                         |
+| ------------------- | ------------------------------------------------------------------- |
+| [`<Badge>`]()       |                                                                     |
+| [`<Loader>`]()      |                                                                     |
+| [`<Notice>`]()      |                                                                     |
+| [`<Placeholder>`]() |                                                                     |
+| [`<Icon>`]()        |                                                                     |
+| [`<Image>`]()       | Displays image, fallbacks when loading or errored, random image     |
+| [`<Avatar>`]()      | The same as `Image`, but has placeholder, letter-based and editable |
+| [`<Tag>`]()         |                                                                     |
+| [`<Video>`]()       |                                                                     |
+
+### Controls
+
+| Component          | Description |
+| ------------------ | ----------- |
+| [`<Button>`]()     |             |
+| [`<Buttons>`]()    |             |
+| [`<IconButton>`]() |             |
+| [`<Pagination>`]() |             |
+
+### Other
+
+| Component           | Description                           |
+| ------------------- | ------------------------------------- |
+| [`<Tooltip>`]()     |                                       |
+| [`<Overlay>`]()     | A block that goes over other content. |
+| [`<Dropdown>`]()    |                                       |
+| [`<Breadcrumb>`]()  |                                       |
+| [`<ContextMenu>`]() |                                       |
+| [`<Expander>`]()    |                                       |
 
 ## UX
 
@@ -113,3 +154,4 @@ _Click on the link to open example._
 |Looped||
 |[`MediaQuery`]()||
 |[`Breakpoint`]()||
+|[`DragDrop`]()||
